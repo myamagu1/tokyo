@@ -1,0 +1,36 @@
+# Site settings
+title: Mondo 
+email: mondo_yamaguchi@hotmail.com
+description: A blog about my favorite country, Japan.
+url: "http://mondoyamaguchi.com" # the base hostname & protocol for your site
+facebook_username: Mondo Yamaguchi
+gems: [jekyll-paginate]
+paginate: 3
+paginate_path: "page:num"
+
+# Build settings
+markdown: kramdown
+permalink: /:title
+
+#Default settings
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      author: Mondo Yamaguchi
+      layout: "post"
+      category: Culture
+      coomments: true
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "pages" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "page"
+
+
+
+
+
