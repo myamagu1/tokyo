@@ -2,6 +2,7 @@
 title: Mondo 
 email: mondo_yamaguchi@hotmail.com
 description: A blog about my favorite country, Japan.
+baseurl: '/tokyo'
 url: "http://mondoyamaguchi.com" # the base hostname & protocol for your site
 facebook_username: Mondo Yamaguchi
 gems: [jekyll-paginate]
