@@ -12,7 +12,7 @@ layout: default
       </div>
     </header>
     {% if page.image %}
-    <center><img class="feat-img is-hidden-mobile"  src="/img/{{post.image}}" style="width:250px;height:350px;"></center>
+    <center><img class="feat-img is-hidden-mobile"  src="{{site.baseurl}}/img/{{post.image}}" style="width:250px;height:350px;"></center>
     {% endif %}
     <article class="post__content">
       {{ content }}
